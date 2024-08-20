@@ -1,0 +1,9 @@
+POST http://localhost:3001/api/leaders HTTP/1.1
+content-type: application/json
+
+{
+    "id": "2",
+    "name": "jank",
+    "score": 3000,
+    "place": 25
+}
